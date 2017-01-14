@@ -1,0 +1,74 @@
+body {
+  background: url("https://dl.dropboxusercontent.com/s/ni3wkeavn1gjw0x/twitch_bckgrnd.jpg?dl=0") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#header {
+  background: #8B2B90;
+  color: #F2F5EF;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+  border-radius: 1em;
+}
+
+#fccStatus {
+  color: #276ABE;
+}
+
+#followerInfo {
+  opacity: .8;
+}
+
+.hdr {
+  padding: 1em;
+  -webkit-box-shadow: 0 4px 3px -3px black;
+	   -moz-box-shadow: 0 4px 3px -3px black;
+	        box-shadow: 0 4px 3px -3px black;
+  margin-bottom: .5em;
+  background-color: #E7DAD4;
+  opacity: .8;
+  border: 1px solid #BBACA6;
+}
+
+.leftBorder {
+  border-top-left-radius: .25em;
+  border-bottom-left-radius: .25em;
+}
+
+.rightBorder {
+  border-top-right-radius: .25em;
+  border-bottom-right-radius: .25em;
+}
+
+/*#followerInfo {
+  outline: 1px solid #105765;
+}*/
+
+#fccStatus:hover {
+  color: #EFECE8;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100px;
+  height:100px;
+  margin-bottom: .25em;
+}
+
+.txt {
+  font-size: 150%;
+  text-align: center;
+  padding-top: .25em;
+  color: black;
+}
+
+.underline {
+  border-bottom: 3px solid #105765;
+}
